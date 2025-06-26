@@ -16,7 +16,8 @@ A secure full-stack blog platform built with Node.js, Express.js, React, and Mon
 - Email verification with OTP
 - Password reset via email
 - View all published blog posts
-- Update profile and password
+- View profile
+- Update Password
 
 ### Admin Features
 - **Admin Dashboard** with blog statistics
@@ -27,7 +28,6 @@ A secure full-stack blog platform built with Node.js, Express.js, React, and Mon
 ### Technical Features
 - **Responsive Design** with modern UI
 - **Protected Routes** based on user and admin roles
-- **Real-time Notifications**
 - **Error Handling** and validation
 - **RESTful API** design
 
@@ -131,7 +131,7 @@ SMTP_PORT=587
 
 #### Start the backend server
 ```bash
-npm start
+npm run dev
 ```
 
 The backend server will run on `http://localhost:5000`
