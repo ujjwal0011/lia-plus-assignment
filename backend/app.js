@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/blog", blogRoutes);
 
-app.get("/", (req, res) => {
+app.get("/ping", (req, res) => {
   res.send("API is running successfully");
 });
 
